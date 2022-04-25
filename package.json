@@ -1,0 +1,27 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "ts-node-dev src/indexno.ts"
+  },
+  "keywords": [],
+  "author": "victor alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "puppeteer": "^13.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.5",
+    "@types/request": "^2.48.8",
+    "@types/request-promise": "^4.1.48"
+  }
+}
